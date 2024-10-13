@@ -26,15 +26,15 @@ peer_endpoint=$(echo "$peer_endpoint" | sed 's/\(.*\):[0-9]*/162.159.193.5/')
 conf=$(cat <<-EOM
 [Interface]
 PrivateKey = ${priv}
-S1 = 0
-S2 = 0
-Jc = 4
-Jmin = 40
-Jmax = 70
-H1 = 1
-H2 = 2
-H3 = 3
-H4 = 4
+S1 = 47
+S2 = 134
+Jc = 19
+Jmin = 25
+Jmax = 157
+H1 = 797788393
+H2 = 573391893
+H3 = 215584801
+H4 = 637057579
 Address = ${client_ipv4}, ${client_ipv6}
 DNS = 1.1.1.1, 2606:4700:4700::1111, 1.0.0.1, 2606:4700:4700::1001
 
