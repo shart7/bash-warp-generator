@@ -28,11 +28,11 @@ conf=$(cat <<-EOM
 PrivateKey = ${priv}
 Jc = 9
 Jmin = 29
-Jmax = 117
-S1 = 23
+Jmax = 71
+S1 = 13
 S2 = 34
-H1 = 875596965
-H2 = 792663163
+H1 = 8755969
+H2 = 79266313
 H3 = 915053001
 H4 = 565822927
 Address = ${client_ipv4}, ${client_ipv6}
@@ -52,6 +52,6 @@ echo "${conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
 
 conf_base64=$(echo -n "${conf}" | base64 -w 0)
-echo "Скачать конфиг файлом: https://immalware.github.io/downloader.html?filename=WARP.conf&content=${conf_base64}"
+echo "Скачать конфиг файлом: https://shart7.github.io/downloader.html?filename=WARP.conf&content=${conf_base64}"
 echo -e "\n"
 echo "Что-то не получилось? Есть вопросы? Пишите в чат: https://t.me/immalware_chat"
