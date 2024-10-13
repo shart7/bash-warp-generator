@@ -8,7 +8,7 @@
 2. Выбираем **Debian**
 3. Вставляем команду:
 ```bash
-curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash
+curl -sSL https://raw.githubusercontent.com/shart7/bash-warp-generator/main/warp_generator.sh | bash
 ```
 4. После того, как конфиг сгенерируется, копируем его, либо скачиваем файлом по ссылке и импортируем в AmneziaWG!👍
 ## Вариант 2: GitHub Codespaces
@@ -19,11 +19,11 @@ curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/w
 ![Terminal](https://i.imgur.com/O1wzkyP.png)
 4. Вставляем команду
 ```bash
-curl -sSL https://raw.githubusercontent.com/ImMALWARE/bash-warp-generator/main/warp_generator.sh | bash
+curl -sSL https://raw.githubusercontent.com/shart7/bash-warp-generator/main/warp_generator.sh | bash
 ```
 5. Копируем конфиг, либо скачиваем файлом по ссылке и импортируем в AmneziaWG!👍
 ## Вариант 3: Replit
-1. Тыкаем сюда: [![Run on Repl.it](https://repl.it/badge/github/replit/upm)](https://replit.com/new/github/ImMALWARE/bash-warp-generator)
+1. Тыкаем сюда: [![Run on Repl.it](https://repl.it/badge/github/replit/upm)](https://replit.com/new/github/shart7/bash-warp-generator)
 2. Создаём аккаунт
 3. Нажимаем кнопку Run вверху
 
